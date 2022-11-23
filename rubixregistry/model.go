@@ -16,6 +16,7 @@ type DeviceInfo struct {
 	SiteLat     string `json:"site_lat"`
 	SiteLon     string `json:"site_lon"`
 	TimeZone    string `json:"time_zone"`
+	DeviceType  string `json:"device_type"`
 	CreatedOn   string `json:"created_on"`
 	UpdatedOn   string `json:"updated_on"`
 }
